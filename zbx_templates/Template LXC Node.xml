@@ -748,7 +748,7 @@
                     </filter>
                     <lifetime>30</lifetime>
                     <description>Discover  LXC container&#13;
-Script /etc/zabbix/lxcdiscover.pl</description>
+Script /etc/zabbix/scripts/lxcdiscover.pl</description>
                     <item_prototypes/>
                     <trigger_prototypes/>
                     <graph_prototypes/>

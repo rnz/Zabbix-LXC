@@ -1,5 +1,5 @@
 #zabbix
-Cmnd_Alias MON_LXC = /etc/zabbix/lxcdiscover.pl, /usr/bin/lxc-info *, /usr/bin/lxc-attach *
+Cmnd_Alias MON_LXC = /etc/zabbix/scripts/lxc/lxcdiscover.pl, /usr/bin/lxc-info *, /usr/bin/lxc-attach *
 Defaults:zabbix !requiretty
 Defaults:zabbix !syslog
 
